@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "updated": "2026-11-24",
+  "source": "Estimated from coaching-site analyses of 2025 IBPS/SBI, SSC CGL and RRB NTPC papers (PracticeMock, Oliveboard, TIME, PW, Careers360). Not official.",
+  "exams": [
+    {
+      "id": "bank",
+      "name": "Bank",
+      "description": "IBPS & SBI PO / Clerk, RRB PO / Clerk",
+      "marking": { "correct": 1, "wrong": 0.25 },
+      "realQuestions": 35,
+      "realMinutes": 20,
+      "groupOrder": ["bank", "arithmetic", "memory", "tricks", "number"],
+      "weights": {
+        "simplification": 6, "approximation": 4, "diCalc": 10, "quadratic": 3,
+        "missingSeries": 3, "wrongSeries": 2,
+        "percentage": 1.5, "profitLoss": 1.5, "interest": 1, "ratio": 1, "average": 1,
+        "timeWork": 1, "speedDistance": 1, "mixture": 0.5, "partnership": 0.5,
+        "boatsStreams": 0.5, "pipes": 0.5, "ages": 0.5,
+        "percentFraction": 2, "squares": 1, "cubes": 1, "tables": 1,
+        "squareRoots": 0.5, "cubeRoots": 0.5, "multiplyBy11": 0.5, "twoDigitMultiply": 1, "nearBase": 0.5
+      },
+      "sectionals": [
+        {
+          "id": "bank_prelims_mini",
+          "name": "Prelims quant mini",
+          "description": "25 questions in prelims proportions",
+          "minutes": 14,
+          "composition": {
+            "simplification": 5, "approximation": 3, "quadratic": 4, "missingSeries": 3,
+            "wrongSeries": 2, "diCalc": 5, "percentage": 1, "profitLoss": 1, "ratio": 1
+          }
+        },
+        {
+          "id": "bank_simplification_sprint",
+          "name": "Simplification sprint",
+          "description": "10 simplification & approximation",
+          "minutes": 5,
+          "composition": { "simplification": 6, "approximation": 4 }
+        }
+      ]
+    },
+    {
+      "id": "ssc",
+      "name": "SSC",
+      "description": "CGL, CHSL, MTS, CPO",
+      "marking": { "correct": 2, "wrong": 0.5 },
+      "realQuestions": 25,
+      "realMinutes": 15,
+      "groupOrder": ["arithmetic", "number", "memory", "tricks", "bank"],
+      "weights": {
+        "profitLoss": 3, "interest": 2, "percentage": 2, "ratio": 2, "average": 1.5,
+        "timeWork": 1.5, "speedDistance": 1.5, "mixture": 1.5, "partnership": 0.5,
+        "boatsStreams": 0.5, "pipes": 0.5, "ages": 0.5,
+        "algebraIdentity": 2, "trigValues": 2, "diCalc": 1.5, "unitDigit": 1, "lcmHcf": 1, "remainders": 1,
+        "simplification": 1, "percentFraction": 2, "squares": 1, "cubes": 1,
+        "squareRoots": 0.5, "cubeRoots": 0.5, "twoDigitMultiply": 0.5
+      },
+      "sectionals": [
+        {
+          "id": "ssc_cgl_mini",
+          "name": "CGL quant mini",
+          "description": "25 questions, +2 / −0.5",
+          "minutes": 15,
+          "composition": {
+            "percentage": 2, "profitLoss": 3, "interest": 2, "ratio": 2, "average": 2,
+            "timeWork": 2, "speedDistance": 2, "mixture": 1, "algebraIdentity": 3,
+            "trigValues": 3, "lcmHcf": 1, "unitDigit": 1, "simplification": 1
+          }
+        },
+        {
+          "id": "ssc_arithmetic_blitz",
+          "name": "Arithmetic blitz",
+          "description": "10 arithmetic word problems",
+          "minutes": 6,
+          "composition": {
+            "percentage": 2, "profitLoss": 2, "interest": 2, "ratio": 1, "timeWork": 1,
+            "speedDistance": 1, "mixture": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "name": "Railway",
+      "description": "RRB NTPC, Group D, ALP",
+      "marking": { "correct": 1, "wrong": 0.3333 },
+      "realQuestions": 30,
+      "realMinutes": 27,
+      "groupOrder": ["number", "arithmetic", "memory", "tricks", "bank"],
+      "weights": {
+        "lcmHcf": 2.5, "remainders": 2, "unitDigit": 1.5, "simplification": 3, "ratio": 2.5,
+        "percentage": 2, "profitLoss": 2, "interest": 2, "average": 1.5, "timeWork": 1.5,
+        "speedDistance": 1.5, "ages": 1.5, "pipes": 1, "boatsStreams": 1, "mixture": 0.5,
+        "partnership": 0.5, "algebraIdentity": 1, "trigValues": 1, "diCalc": 1, "squares": 1,
+        "percentFraction": 1,
+        "squareRoots": 0.5, "twoDigitMultiply": 0.5
+      },
+      "sectionals": [
+        {
+          "id": "rrb_ntpc_mini",
+          "name": "NTPC maths mini",
+          "description": "20 questions, −1/3 per wrong",
+          "minutes": 18,
+          "composition": {
+            "simplification": 3, "lcmHcf": 2, "remainders": 2, "unitDigit": 1, "percentage": 2,
+            "profitLoss": 2, "interest": 1, "ratio": 1, "average": 1, "timeWork": 1,
+            "speedDistance": 2, "ages": 1, "pipes": 1
+          }
+        },
+        {
+          "id": "rrb_number_sprint",
+          "name": "Number system sprint",
+          "description": "10 LCM/HCF, remainders, unit digits",
+          "minutes": 6,
+          "composition": { "lcmHcf": 3, "remainders": 4, "unitDigit": 3 }
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {"id": "bank_qc_si_ci", "topic": "interest", "kind": "compare", "levels": [3, 5], "exams": ["bank"], "vars": {"p": {"min": 2, "max": 20}, "p2": {"min": 2, "max": 20}, "r": [5, 10, 20], "r2": [5, 10, 20]}, "let": {"P": "p * 1000", "P2": "p2 * 1000"}, "prompt": "Quantity I: SI on ₹{P:inr} at {r}% p.a. for 2 years\nQuantity II: CI on ₹{P2:inr} at {r2}% p.a. for 2 years", "compare": ["P * r * 2 / 100", "P2 * ((1 + r2 / 100) ^ 2 - 1)"], "where": ["isInt(q2)", "abs(q1 - q2) <= max(q1, q2) * 0.3"]},
+    {"id": "bank_qc_train_speed", "topic": "speedDistance", "kind": "compare", "levels": [2, 5], "exams": ["bank"], "vars": {"k": {"min": 2, "max": 6}, "t": {"min": 6, "max": 30}, "d": {"min": -6, "max": 6}}, "let": {"L": "5 * k * t", "v": "18 * k + d"}, "prompt": "Quantity I: speed (km/h) of a train {L} m long that crosses a pole in {t} s\nQuantity II: {v} km/h", "compare": ["L / t * 18 / 5", "v"], "where": ["v > 0"]},
+    {"id": "bank_qc_profit", "topic": "profitLoss", "kind": "compare", "levels": [3, 5], "exams": ["bank"], "vars": {"c": {"min": 4, "max": 40}, "p": [10, 20, 25, 40, 50], "x": {"min": 5, "max": 60, "step": 5}}, "let": {"CP": "c * 100", "SP": "CP * (100 + p) / 100"}, "prompt": "Quantity I: profit % when CP = ₹{CP:inr} and SP = ₹{SP:inr}\nQuantity II: {x}%", "compare": ["(SP - CP) / CP * 100", "x"]},
+    {"id": "bank_qc_ratio_share", "topic": "ratio", "kind": "compare", "levels": [3, 5], "exams": ["bank"], "vars": {"a": {"min": 1, "max": 9}, "b": {"min": 1, "max": 9}, "k": {"min": 2, "max": 60}, "dd": {"min": -5, "max": 5}}, "let": {"T": "(a + b) * k * 10", "y": "T * a / (a + b) + dd * 10"}, "prompt": "Quantity I: A's share when ₹{T:inr} is divided between A and B in the ratio {a} : {b}\nQuantity II: ₹{y:inr}", "compare": ["T * a / (a + b)", "y"], "where": ["gcd(a, b) == 1", "a != b", "y > 0"]},
+    {"id": "bank_caselet_pass", "topic": "percentage", "levels": [3, 5], "exams": ["bank", "ssc"], "vars": {"n": {"min": 4, "max": 20}, "p": [20, 30, 40, 50, 60], "q": [20, 40, 50, 60, 80], "s": [20, 40, 50, 60, 80]}, "let": {"N": "n * 50", "g": "N * p / 100", "b": "N - g"}, "prompt": "In a school of {N} students, {p}% are girls. {q}% of the girls and {s}% of the boys passed.\nTotal students who passed = ?", "answer": "g * q / 100 + b * s / 100", "where": ["isInt(g * q / 100)", "isInt(b * s / 100)"]},
+    {"id": "bank_di_two_companies", "topic": "diCalc", "levels": [2, 5], "exams": ["bank"], "vars": {"a": {"min": 100, "max": 900, "step": 20}, "b": {"min": 100, "max": 900, "step": 10}, "c": {"min": 100, "max": 900, "step": 10}, "pc": [50, 60, 75, 80, 120, 125, 150]}, "let": {"d": "a * pc / 100"}, "prompt": "Company A: 2023 → {a}, 2024 → {b}\nCompany B: 2023 → {c}, 2024 → {d}\nB's 2024 figure is what % of A's 2023 figure?", "answer": "d / a * 100", "where": ["isInt(d)"]},
+    {"id": "ssc_mp_discount_gain", "topic": "profitLoss", "levels": [3, 5], "exams": ["ssc", "railway"], "vars": {"m": {"min": 4, "max": 60}, "d": [10, 12, 15, 20, 25], "g": [10, 12.5, 20, 25, 50]}, "let": {"MP": "m * 100"}, "prompt": "A shopkeeper marks an article at ₹{MP:inr}, gives a {d}% discount and still gains {g}%.\nCost price = ?", "answer": "MP * (100 - d) / (100 + g)"},
+    {"id": "ssc_a4_identity", "topic": "algebraIdentity", "levels": [4, 5], "exams": ["ssc"], "vars": {"k": {"min": 3, "max": 7}}, "prompt": "If a + 1/a = {k}, then a⁴ + 1/a⁴ = ?", "answer": "(k ^ 2 - 2) ^ 2 - 2"},
+    {"id": "ssc_ab_from_sum_diff", "topic": "algebraIdentity", "levels": [2, 5], "exams": ["ssc", "railway"], "vars": {"s": {"min": 4, "max": 30}, "d": {"min": 1, "max": 20}}, "prompt": "If a + b = {s} and a − b = {d}, then ab = ?", "answer": "(s ^ 2 - d ^ 2) / 4", "where": ["d < s", "isInt((s + d) / 2)"]},
+    {"id": "rrb_sum_divisible", "topic": "remainders", "levels": [2, 5], "exams": ["railway", "ssc"], "vars": {"d": [3, 4, 6, 7, 8, 9, 11, 12, 13]}, "let": {"f": "ceil(10 / d) * d", "l": "floor(99 / d) * d", "n": "(l - f) / d + 1"}, "prompt": "Sum of all two-digit numbers divisible by {d} = ?", "answer": "n * (f + l) / 2"},
+    {"id": "rrb_work_wages", "topic": "timeWork", "levels": [2, 4], "exams": ["railway", "ssc"], "vars": {"a": {"min": 4, "max": 30}, "b": {"min": 4, "max": 30}, "w": {"min": 2, "max": 60}}, "let": {"W": "w * 100"}, "prompt": "A can do a work in {a} days and B in {b} days. Working together they earn ₹{W:inr}.\nA's share = ?", "answer": "W * b / (a + b)", "where": ["a != b"]},
+    {"id": "rrb_family_average_age", "topic": "ages", "levels": [3, 5], "exams": ["railway", "ssc"], "vars": {"x": {"min": 20, "max": 30}, "n": {"min": 2, "max": 10}, "c": {"min": 1, "max": 9}}, "prompt": "The average age of a husband and wife was {x} years when they married. {n} years later they have a {c}-year-old child.\nAverage age of the family now = ?", "answer": "(2 * (x + n) + c) / 3", "where": ["c <= n"]}
+  ],
+  "examDates": [
+    {"exam": "bank", "name": "SBI Clerk Mains", "date": "2026-11-26", "tentative": true, "source": "Coaching-site reports of SBI notice (26–27 Nov 2026); confirm on sbi.bank.in"},
+    {"exam": "bank", "name": "IBPS RRB Office Assistant Prelims", "date": "2026-12-06", "tentative": true, "source": "IBPS calendar 2026-27 (tentative): 6, 12, 13 Dec 2026"},
+    {"exam": "bank", "name": "IBPS RRB Officer Scale I Mains", "date": "2026-12-20", "tentative": true, "source": "IBPS calendar 2026-27 (tentative)"},
+    {"exam": "bank", "name": "IBPS Clerk Mains", "date": "2026-12-27", "tentative": true, "source": "IBPS calendar 2026-27 (tentative)"},
+    {"exam": "bank", "name": "IBPS RRB Office Assistant Mains", "date": "2027-01-30", "tentative": true, "source": "IBPS calendar 2026-27 (tentative)"},
+    {"exam": "railway", "name": "RRB NTPC Graduate CBT-1 (4th week of Dec)", "date": "2026-12-21", "tentative": true, "source": "Reported as tentatively from the 4th week of Dec 2026; exact dates not announced"}
+  ]
+}
