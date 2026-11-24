@@ -1,6 +1,6 @@
 # speed-maths-data
 
-Live content for the Ganit Guru speed-maths app (Bank, SSC & Railway exams).
+Live content for the Speed Math app (Bank, SSC & Railway exams).
 The app downloads `exam_patterns.json` from this repo at most once a day, so
 changes merged here reach every installed app without a release.
 
