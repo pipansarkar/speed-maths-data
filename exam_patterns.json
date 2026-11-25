@@ -1,5 +1,5 @@
 {
- "version": 4,
+ "version": 5,
  "updated": "2026-11-25",
  "source": "Estimated from coaching-site analyses of 2025 IBPS/SBI, SSC CGL and RRB NTPC papers (PracticeMock, Oliveboard, TIME, PW, Careers360). Not official. v4 mock structures from 2025 paper analyses (PW, Adda247, PracticeMock, Oliveboard, CareerPower, Careers360, CollegeDekho).",
  "exams": [
@@ -238,6 +238,161 @@
       "mensuration": 1,
       "permComb": 1
      }
+    },
+    {
+     "id": "sbi_clerk_pre",
+     "tier": "prelims",
+     "name": "SBI Clerk Prelims — Numerical Ability",
+     "description": "35 Q · simplification, series, DI, arithmetic",
+     "minutes": 20,
+     "composition": {
+      "simplification": 6,
+      "approximation": 4,
+      "missingSeries": 3,
+      "wrongSeries": 2,
+      "diSet": 5,
+      "percentage": 2,
+      "profitLoss": 2,
+      "interest": 1,
+      "ratio": 1,
+      "average": 1,
+      "timeWork": 1,
+      "speedDistance": 1,
+      "mixture": 1,
+      "partnership": 1,
+      "ages": 1,
+      "pipes": 1,
+      "boatsStreams": 1,
+      "mensuration": 1
+     }
+    },
+    {
+     "id": "rrb_po_pre",
+     "tier": "prelims",
+     "name": "IBPS RRB PO Prelims — Quant",
+     "description": "40 Q · DI sets, approximation, quadratic, series, arithmetic",
+     "minutes": 25,
+     "composition": {
+      "diSet": 10,
+      "approximation": 5,
+      "simplification": 3,
+      "missingSeries": 5,
+      "quadratic": 5,
+      "caselet": 2,
+      "percentage": 1,
+      "profitLoss": 1,
+      "interest": 1,
+      "ratio": 1,
+      "average": 1,
+      "timeWork": 1,
+      "speedDistance": 1,
+      "mixture": 1,
+      "partnership": 1,
+      "ages": 1
+     }
+    },
+    {
+     "id": "rrb_clerk_pre",
+     "tier": "prelims",
+     "name": "IBPS RRB Clerk Prelims — Numerical Ability",
+     "description": "40 Q · simplification-heavy",
+     "minutes": 25,
+     "composition": {
+      "simplification": 10,
+      "approximation": 5,
+      "missingSeries": 5,
+      "diSet": 5,
+      "quadratic": 3,
+      "percentage": 1,
+      "profitLoss": 1,
+      "interest": 1,
+      "ratio": 1,
+      "average": 1,
+      "timeWork": 1,
+      "speedDistance": 1,
+      "mixture": 1,
+      "partnership": 1,
+      "ages": 1,
+      "pipes": 1,
+      "boatsStreams": 1
+     }
+    },
+    {
+     "id": "rbi_asst_pre",
+     "tier": "prelims",
+     "name": "RBI Assistant Prelims — Numerical Ability",
+     "description": "35 Q · simplification, series, quadratic, arithmetic",
+     "minutes": 20,
+     "composition": {
+      "simplification": 6,
+      "approximation": 4,
+      "missingSeries": 5,
+      "diSet": 5,
+      "quadratic": 5,
+      "percentage": 1,
+      "profitLoss": 1,
+      "interest": 1,
+      "ratio": 1,
+      "average": 1,
+      "timeWork": 1,
+      "speedDistance": 1,
+      "mixture": 1,
+      "partnership": 1,
+      "ages": 1
+     }
+    },
+    {
+     "id": "sbi_po_mains",
+     "tier": "mains",
+     "name": "SBI PO Mains — Data Analysis & Interpretation",
+     "description": "35 Q · DI sets, caselet, data sufficiency",
+     "minutes": 45,
+     "composition": {
+      "diSet": 15,
+      "caselet": 3,
+      "dataSufficiency": 5,
+      "probability": 2,
+      "permComb": 1,
+      "profitLoss": 1,
+      "interest": 1,
+      "timeWork": 1,
+      "speedDistance": 1,
+      "mixture": 1,
+      "partnership": 1,
+      "boatsStreams": 1,
+      "pipes": 1,
+      "ages": 1
+     }
+    },
+    {
+     "id": "sbi_clerk_mains",
+     "tier": "mains",
+     "name": "SBI Clerk Mains — Quant",
+     "description": "50 Q · DI-heavy with arithmetic",
+     "minutes": 45,
+     "composition": {
+      "diSet": 15,
+      "caselet": 3,
+      "approximation": 5,
+      "missingSeries": 5,
+      "quadratic": 5,
+      "dataSufficiency": 2,
+      "percentage": 1,
+      "profitLoss": 1,
+      "interest": 1,
+      "ratio": 1,
+      "average": 1,
+      "timeWork": 1,
+      "speedDistance": 1,
+      "mixture": 1,
+      "partnership": 1,
+      "ages": 1,
+      "pipes": 1,
+      "boatsStreams": 1,
+      "mensuration": 1,
+      "probability": 1,
+      "permComb": 1
+     }
     }
    ]
   },
@@ -417,6 +572,117 @@
       "correct": 3,
       "wrong": 1
      }
+    },
+    {
+     "id": "cpo_p1",
+     "tier": "prelims",
+     "name": "SSC CPO Paper 1 — Quant",
+     "description": "50 Q · +1 / −0.25",
+     "minutes": 30,
+     "composition": {
+      "percentage": 3,
+      "profitLoss": 4,
+      "interest": 3,
+      "ratio": 3,
+      "average": 3,
+      "timeWork": 3,
+      "speedDistance": 3,
+      "mixture": 2,
+      "partnership": 1,
+      "pipes": 1,
+      "boatsStreams": 1,
+      "ages": 1,
+      "algebraIdentity": 4,
+      "trigValues": 4,
+      "geometry": 4,
+      "mensuration": 4,
+      "diCalc": 2,
+      "simplification": 2,
+      "lcmHcf": 1,
+      "unitDigit": 1
+     },
+     "marking": {
+      "correct": 1,
+      "wrong": 0.25
+     }
+    },
+    {
+     "id": "gd",
+     "tier": "prelims",
+     "name": "SSC GD Constable — Elementary Maths",
+     "description": "20 Q · +2 / −0.25",
+     "minutes": 15,
+     "composition": {
+      "simplification": 3,
+      "percentage": 2,
+      "profitLoss": 2,
+      "interest": 1,
+      "ratio": 2,
+      "average": 2,
+      "timeWork": 2,
+      "speedDistance": 2,
+      "lcmHcf": 1,
+      "remainders": 1,
+      "mensuration": 1,
+      "ages": 1
+     },
+     "marking": {
+      "correct": 2,
+      "wrong": 0.25
+     }
+    },
+    {
+     "id": "mts",
+     "tier": "prelims",
+     "name": "SSC MTS — Numerical Ability",
+     "description": "20 Q · +3, no negative (session 1)",
+     "minutes": 15,
+     "composition": {
+      "simplification": 3,
+      "percentage": 2,
+      "profitLoss": 2,
+      "interest": 1,
+      "ratio": 2,
+      "average": 2,
+      "timeWork": 1,
+      "speedDistance": 2,
+      "lcmHcf": 1,
+      "remainders": 1,
+      "mensuration": 2,
+      "ages": 1
+     },
+     "marking": {
+      "correct": 3,
+      "wrong": 0
+     }
+    },
+    {
+     "id": "chsl_t2",
+     "tier": "mains",
+     "name": "SSC CHSL Tier 2 — Mathematical Abilities",
+     "description": "30 Q · +3 / −1",
+     "minutes": 30,
+     "composition": {
+      "geometry": 3,
+      "mensuration": 3,
+      "trigValues": 3,
+      "algebraIdentity": 3,
+      "statistics": 1,
+      "percentage": 2,
+      "profitLoss": 2,
+      "interest": 2,
+      "ratio": 2,
+      "average": 1,
+      "timeWork": 2,
+      "speedDistance": 2,
+      "diCalc": 2,
+      "simplification": 1,
+      "lcmHcf": 1
+     },
+     "marking": {
+      "correct": 3,
+      "wrong": 1
+     }
     }
    ]
   },
@@ -581,6 +847,52 @@
       "statistics": 2,
       "diCalc": 2
      }
+    },
+    {
+     "id": "alp_cbt1",
+     "tier": "prelims",
+     "name": "RRB ALP CBT 1 — Mathematics",
+     "description": "20 Q · −1/3 per wrong",
+     "minutes": 16,
+     "composition": {
+      "simplification": 2,
+      "lcmHcf": 1,
+      "remainders": 1,
+      "ratio": 2,
+      "percentage": 2,
+      "profitLoss": 2,
+      "interest": 1,
+      "average": 1,
+      "timeWork": 2,
+      "speedDistance": 2,
+      "mensuration": 2,
+      "algebraIdentity": 1,
+      "ages": 1
+     }
+    },
+    {
+     "id": "rpf_const",
+     "tier": "prelims",
+     "name": "RPF Constable — Arithmetic",
+     "description": "35 Q · −1/3 per wrong",
+     "minutes": 26,
+     "composition": {
+      "simplification": 4,
+      "lcmHcf": 2,
+      "remainders": 2,
+      "unitDigit": 1,
+      "ratio": 3,
+      "percentage": 3,
+      "profitLoss": 3,
+      "interest": 2,
+      "average": 3,
+      "timeWork": 2,
+      "speedDistance": 3,
+      "ages": 2,
+      "pipes": 1,
+      "mensuration": 3,
+      "mixture": 1
+     }
     }
    ]
   },
@@ -677,6 +989,31 @@
       "geometry": 2,
       "mensuration": 1,
       "probability": 1
+     },
+     "series": 25
+    },
+    {
+     "id": "xat_qa",
+     "tier": "mains",
+     "name": "XAT QA & DI — mock",
+     "description": "26 Q · 40 min · +1 / −0.25",
+     "minutes": 40,
+     "composition": {
+      "diSet": 5,
+      "caselet": 3,
+      "numberTheory": 3,
+      "algebraAdvanced": 3,
+      "combinatorics": 2,
+      "probability": 2,
+      "tsdAdvanced": 2,
+      "geometry": 2,
+      "mensuration": 1,
+      "mixture": 1,
+      "progressions": 2
+     },
+     "marking": {
+      "correct": 1,
+      "wrong": 0.25
      }
     }
    ]
@@ -1123,6 +1460,941 @@
    "answer": "(2 * (x + n) + c) / 3",
    "where": [
     "c <= n"
+   ]
+  },
+  {
+   "id": "pct_election",
+   "topic": "percentage",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "bank",
+    "ssc",
+    "railway"
+   ],
+   "vars": {
+    "p": [
+     52,
+     55,
+     56,
+     58,
+     60,
+     62,
+     64,
+     65,
+     70,
+     75
+    ],
+    "k": {
+     "min": 1,
+     "max": 40
+    }
+   },
+   "let": {
+    "V": "k * 1000",
+    "d": "V * (2 * p - 100) / 100"
+   },
+   "prompt": "In an election between two candidates, the winner gets {p}% of the votes and wins by {d:inr} votes.\nTotal votes = ?",
+   "answer": "V",
+   "where": [
+    "isInt(d)"
+   ]
+  },
+  {
+   "id": "pct_pass_marks",
+   "topic": "percentage",
+   "levels": [
+    1,
+    4
+   ],
+   "exams": [
+    "bank",
+    "ssc",
+    "railway"
+   ],
+   "vars": {
+    "p": [
+     25,
+     30,
+     33,
+     35,
+     40,
+     45
+    ],
+    "m": {
+     "min": 2,
+     "max": 12
+    }
+   },
+   "let": {
+    "M": "m * 100",
+    "need": "M * p / 100",
+    "f": "floor(need / 5)",
+    "g": "need - f"
+   },
+   "prompt": "A student needs {p}% to pass. He scores {g} marks and fails by {f} marks.\nMaximum marks = ?",
+   "answer": "M",
+   "where": [
+    "isInt(need)",
+    "f >= 1"
+   ]
+  },
+  {
+   "id": "pct_income_saving",
+   "topic": "percentage",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "bank",
+    "ssc"
+   ],
+   "vars": {
+    "e": [
+     60,
+     70,
+     75,
+     80
+    ],
+    "a": [
+     10,
+     20,
+     25,
+     30
+    ],
+    "b": [
+     5,
+     10,
+     15,
+     20
+    ]
+   },
+   "prompt": "A man spends {e}% of his income. His income rises by {a}% and his expenditure by {b}%.\nBy what % do his savings increase?",
+   "answer": "((100 + a) - e * (100 + b) / 100 - (100 - e)) / (100 - e) * 100",
+   "where": [
+    "answer > 0",
+    "isInt(answer)"
+   ]
+  },
+  {
+   "id": "pl_two_articles",
+   "topic": "profitLoss",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "bank",
+    "ssc",
+    "railway"
+   ],
+   "vars": {
+    "p": [
+     10,
+     20,
+     30
+    ],
+    "s": {
+     "min": 5,
+     "max": 60
+    }
+   },
+   "let": {
+    "S": "s * 100"
+   },
+   "prompt": "Two articles are sold for ₹{S:inr} each — one at {p}% profit, the other at {p}% loss.\nOverall loss % = ?",
+   "answer": "p * p / 100",
+   "where": [
+    "isInt(answer)"
+   ]
+  },
+  {
+   "id": "pl_cp_sp_count",
+   "topic": "profitLoss",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "a": {
+     "min": 11,
+     "max": 30
+    },
+    "b": {
+     "min": 8,
+     "max": 25
+    }
+   },
+   "prompt": "The cost price of {a} articles equals the selling price of {b} articles.\nProfit % = ?",
+   "answer": "(a - b) * 100 / b",
+   "where": [
+    "a > b",
+    "isInt(answer)"
+   ]
+  },
+  {
+   "id": "ci_rate_from_amounts",
+   "topic": "interest",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "bank",
+    "ssc"
+   ],
+   "vars": {
+    "r": [
+     5,
+     10,
+     20,
+     25
+    ],
+    "k": {
+     "min": 1,
+     "max": 40
+    }
+   },
+   "let": {
+    "P": "k * 1000",
+    "A2": "P * (100 + r) ^ 2 / 10000",
+    "A3": "A2 * (100 + r) / 100"
+   },
+   "prompt": "A sum amounts to ₹{A2:inr} in 2 years and ₹{A3:inr} in 3 years at compound interest.\nRate % p.a. = ?",
+   "answer": "r",
+   "where": [
+    "isInt(A2)",
+    "isInt(A3)"
+   ]
+  },
+  {
+   "id": "si_times",
+   "topic": "interest",
+   "levels": [
+    2,
+    4
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "n": [
+     4,
+     5,
+     6,
+     8,
+     10,
+     12
+    ],
+    "k": [
+     3,
+     4,
+     5
+    ]
+   },
+   "prompt": "At simple interest a sum doubles in {n} years. In how many years will it become {k} times?",
+   "answer": "(k - 1) * n"
+  },
+  {
+   "id": "ratio_coins",
+   "topic": "ratio",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "a": {
+     "min": 1,
+     "max": 6
+    },
+    "b": {
+     "min": 1,
+     "max": 6
+    },
+    "c": {
+     "min": 1,
+     "max": 6
+    },
+    "k": {
+     "min": 4,
+     "max": 40,
+     "step": 4
+    }
+   },
+   "let": {
+    "T": "k * (4 * a + 2 * b + c) / 4"
+   },
+   "prompt": "A bag has ₹1, 50p and 25p coins in the ratio {a} : {b} : {c}, worth ₹{T:inr} in all.\nNumber of 25p coins = ?",
+   "answer": "c * k",
+   "where": [
+    "isInt(T)",
+    "gcd(gcd(a, b), c) == 1"
+   ]
+  },
+  {
+   "id": "work_mandays",
+   "topic": "timeWork",
+   "levels": [
+    1,
+    4
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "m1": {
+     "min": 4,
+     "max": 40
+    },
+    "d1": {
+     "min": 6,
+     "max": 40
+    },
+    "m2": {
+     "min": 3,
+     "max": 60
+    }
+   },
+   "prompt": "{m1} men can finish a work in {d1} days. In how many days will {m2} men finish it?",
+   "answer": "m1 * d1 / m2",
+   "where": [
+    "isInt(answer)",
+    "m1 != m2"
+   ]
+  },
+  {
+   "id": "work_men_hours",
+   "topic": "timeWork",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway"
+   ],
+   "vars": {
+    "m1": {
+     "min": 4,
+     "max": 24
+    },
+    "h1": {
+     "min": 5,
+     "max": 10
+    },
+    "d1": {
+     "min": 6,
+     "max": 30
+    },
+    "m2": {
+     "min": 4,
+     "max": 30
+    },
+    "h2": {
+     "min": 5,
+     "max": 10
+    }
+   },
+   "prompt": "{m1} men working {h1} hours a day finish a work in {d1} days.\nHow many days will {m2} men working {h2} hours a day take?",
+   "answer": "m1 * h1 * d1 / (m2 * h2)",
+   "where": [
+    "isInt(answer)",
+    "m1 != m2"
+   ]
+  },
+  {
+   "id": "work_efficiency",
+   "topic": "timeWork",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "bank",
+    "ssc"
+   ],
+   "vars": {
+    "p": [
+     20,
+     25,
+     50,
+     60,
+     100
+    ],
+    "b": {
+     "min": 6,
+     "max": 60
+    }
+   },
+   "prompt": "A is {p}% more efficient than B. B alone takes {b} days. A alone takes ? days",
+   "answer": "b * 100 / (100 + p)",
+   "where": [
+    "isInt(answer)"
+   ]
+  },
+  {
+   "id": "train_pole_platform",
+   "topic": "speedDistance",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "v": {
+     "min": 10,
+     "max": 25
+    },
+    "t1": {
+     "min": 8,
+     "max": 20
+    },
+    "dt": {
+     "min": 5,
+     "max": 30
+    }
+   },
+   "let": {
+    "P": "v * dt",
+    "t2": "t1 + dt"
+   },
+   "prompt": "A train passes a pole in {t1} s and a {P} m long platform in {t2} s.\nLength of the train (m) = ?",
+   "answer": "v * t1"
+  },
+  {
+   "id": "late_early",
+   "topic": "speedDistance",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway"
+   ],
+   "vars": {
+    "v1": {
+     "min": 3,
+     "max": 8
+    },
+    "dv": {
+     "min": 1,
+     "max": 4
+    },
+    "l": [
+     5,
+     10,
+     15,
+     20
+    ],
+    "e": [
+     5,
+     10,
+     15,
+     20
+    ]
+   },
+   "let": {
+    "v2": "v1 + dv"
+   },
+   "prompt": "Walking at {v1} km/h a man is {l} minutes late; at {v2} km/h he is {e} minutes early.\nDistance (km) = ?",
+   "answer": "(l + e) / 60 * v1 * v2 / (v2 - v1)",
+   "where": [
+    "isInt(answer)"
+   ]
+  },
+  {
+   "id": "avg_batsman",
+   "topic": "average",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "n": {
+     "min": 10,
+     "max": 30
+    },
+    "a": {
+     "min": 30,
+     "max": 60
+    },
+    "dd": {
+     "min": 1,
+     "max": 5
+    }
+   },
+   "let": {
+    "b": "a + dd"
+   },
+   "prompt": "A batsman's average after {n} innings is {a}. How many runs must he score in the next innings to raise it to {b}?",
+   "answer": "b * (n + 1) - a * n"
+  },
+  {
+   "id": "avg_misread",
+   "topic": "average",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway"
+   ],
+   "vars": {
+    "n": {
+     "min": 10,
+     "max": 50
+    },
+    "a": {
+     "min": 20,
+     "max": 80
+    },
+    "x": {
+     "min": 10,
+     "max": 99
+    },
+    "y": {
+     "min": 10,
+     "max": 99
+    }
+   },
+   "prompt": "The average of {n} numbers was {a}, but {x} was wrongly read as {y}.\nCorrect average = ?",
+   "answer": "(n * a - y + x) / n",
+   "where": [
+    "x != y",
+    "isInt(answer * 100)"
+   ]
+  },
+  {
+   "id": "mens_garden_path",
+   "topic": "mensuration",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "l": {
+     "min": 20,
+     "max": 80
+    },
+    "b": {
+     "min": 10,
+     "max": 60
+    },
+    "w": {
+     "min": 1,
+     "max": 5
+    }
+   },
+   "prompt": "A {l} m × {b} m garden has a {w} m wide path around it on the outside.\nArea of the path (m²) = ?",
+   "answer": "(l + 2 * w) * (b + 2 * w) - l * b",
+   "where": [
+    "b < l"
+   ]
+  },
+  {
+   "id": "mens_fencing",
+   "topic": "mensuration",
+   "levels": [
+    1,
+    3
+   ],
+   "exams": [
+    "ssc",
+    "railway"
+   ],
+   "vars": {
+    "l": {
+     "min": 20,
+     "max": 120
+    },
+    "b": {
+     "min": 10,
+     "max": 80
+    },
+    "r": {
+     "min": 5,
+     "max": 40
+    }
+   },
+   "prompt": "Cost of fencing a {l} m × {b} m field at ₹{r} per metre = ?",
+   "answer": "2 * (l + b) * r",
+   "where": [
+    "b < l"
+   ]
+  },
+  {
+   "id": "mens_sector",
+   "topic": "mensuration",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "cat"
+   ],
+   "vars": {
+    "k": {
+     "min": 1,
+     "max": 4
+    },
+    "t": [
+     30,
+     45,
+     60,
+     72,
+     90,
+     120,
+     135,
+     180
+    ]
+   },
+   "let": {
+    "r": "7 * k"
+   },
+   "prompt": "Area of a sector of radius {r} cm and angle {t}° (use π = 22/7) = ? (cm²)",
+   "answer": "t / 360 * 22 / 7 * r * r",
+   "where": [
+    "isInt(answer)"
+   ]
+  },
+  {
+   "id": "geo_angle_ratio",
+   "topic": "geometry",
+   "levels": [
+    1,
+    3
+   ],
+   "exams": [
+    "ssc",
+    "railway"
+   ],
+   "vars": {
+    "a": {
+     "min": 1,
+     "max": 9
+    },
+    "b": {
+     "min": 1,
+     "max": 9
+    },
+    "c": {
+     "min": 1,
+     "max": 9
+    }
+   },
+   "prompt": "The angles of a triangle are in the ratio {a} : {b} : {c}. The largest angle (°) = ?",
+   "answer": "180 * max(a, b, c) / (a + b + c)",
+   "where": [
+    "isInt(answer)",
+    "a != b",
+    "b != c",
+    "gcd(gcd(a, b), c) == 1"
+   ]
+  },
+  {
+   "id": "ages_mother_daughter",
+   "topic": "ages",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "dd": {
+     "min": 4,
+     "max": 20
+    },
+    "n": {
+     "min": 2,
+     "max": 15
+    },
+    "k": [
+     2,
+     3
+    ]
+   },
+   "let": {
+    "m": "k * (dd + n) - n",
+    "S": "m + dd"
+   },
+   "prompt": "The sum of the ages of a mother and her daughter is {S}. After {n} years the mother will be {k} times as old as the daughter.\nDaughter's present age = ?",
+   "answer": "dd",
+   "where": [
+    "m >= dd + 18",
+    "m <= 70"
+   ]
+  },
+  {
+   "id": "mix_two_vessels",
+   "topic": "mixture",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "bank",
+    "ssc"
+   ],
+   "vars": {
+    "a": {
+     "min": 1,
+     "max": 7
+    },
+    "b": {
+     "min": 1,
+     "max": 5
+    },
+    "c": {
+     "min": 1,
+     "max": 7
+    },
+    "d": {
+     "min": 1,
+     "max": 5
+    },
+    "x": {
+     "min": 4,
+     "max": 60,
+     "step": 2
+    },
+    "y": {
+     "min": 4,
+     "max": 60,
+     "step": 2
+    }
+   },
+   "prompt": "Vessel A has milk and water in the ratio {a} : {b}, vessel B in {c} : {d}. {x} L of A is mixed with {y} L of B.\nMilk in the mixture (L) = ?",
+   "answer": "x * a / (a + b) + y * c / (c + d)",
+   "where": [
+    "isInt(x * a / (a + b))",
+    "isInt(y * c / (c + d))",
+    "gcd(a, b) == 1",
+    "gcd(c, d) == 1",
+    "a * d != b * c"
+   ]
+  },
+  {
+   "id": "partner_withdraw",
+   "topic": "partnership",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "bank",
+    "ssc"
+   ],
+   "vars": {
+    "p": {
+     "min": 4,
+     "max": 20,
+     "step": 2
+    },
+    "q": {
+     "min": 4,
+     "max": 20
+    },
+    "m": {
+     "min": 2,
+     "max": 10
+    },
+    "z": {
+     "min": 2,
+     "max": 60
+    }
+   },
+   "let": {
+    "A": "p * 1000",
+    "B": "q * 1000",
+    "wa": "p * m + p / 2 * (12 - m)",
+    "wb": "q * 12",
+    "P": "z * 100 * (wa + wb)"
+   },
+   "prompt": "A invests ₹{A:inr} and B ₹{B:inr}. After {m} months A withdraws half his capital. The year's profit is ₹{P:inr}.\nA's share = ?",
+   "answer": "P * wa / (wa + wb)",
+   "where": [
+    "isInt(answer)"
+   ]
+  },
+  {
+   "id": "lcm_bells",
+   "topic": "lcmHcf",
+   "levels": [
+    1,
+    4
+   ],
+   "exams": [
+    "ssc",
+    "railway",
+    "bank"
+   ],
+   "vars": {
+    "a": {
+     "min": 2,
+     "max": 15
+    },
+    "b": {
+     "min": 2,
+     "max": 15
+    },
+    "c": {
+     "min": 2,
+     "max": 15
+    }
+   },
+   "prompt": "Three bells ring at intervals of {a}, {b} and {c} minutes. They ring together at 9 a.m.\nAfter how many minutes will they next ring together?",
+   "answer": "lcm(lcm(a, b), c)",
+   "where": [
+    "a < b",
+    "b < c",
+    "answer <= 600"
+   ]
+  },
+  {
+   "id": "qc_larger_root",
+   "topic": "quadratic",
+   "kind": "compare",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "bank"
+   ],
+   "vars": {
+    "r1": {
+     "min": 1,
+     "max": 15
+    },
+    "r2": {
+     "min": 1,
+     "max": 15
+    },
+    "dd": {
+     "min": -3,
+     "max": 3
+    }
+   },
+   "let": {
+    "s": "r1 + r2",
+    "pr": "r1 * r2",
+    "v": "max(r1, r2) + dd"
+   },
+   "prompt": "Quantity I: the larger root of x² − {s}x + {pr} = 0\nQuantity II: {v}",
+   "compare": [
+    "max(r1, r2)",
+    "v"
+   ],
+   "where": [
+    "r1 != r2"
+   ]
+  },
+  {
+   "id": "qc_avg_even",
+   "topic": "average",
+   "kind": "compare",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "bank"
+   ],
+   "vars": {
+    "n": {
+     "min": 10,
+     "max": 60
+    },
+    "dd": {
+     "min": -4,
+     "max": 4
+    }
+   },
+   "let": {
+    "v": "n + 1 + dd"
+   },
+   "prompt": "Quantity I: average of the first {n} even numbers\nQuantity II: {v}",
+   "compare": [
+    "n + 1",
+    "v"
+   ]
+  },
+  {
+   "id": "qc_si_ci_same",
+   "topic": "interest",
+   "kind": "compare",
+   "levels": [
+    4,
+    5
+   ],
+   "exams": [
+    "bank"
+   ],
+   "vars": {
+    "k": {
+     "min": 2,
+     "max": 20
+    },
+    "r": [
+     10,
+     20
+    ],
+    "dd": {
+     "min": -50,
+     "max": 50,
+     "step": 10
+    }
+   },
+   "let": {
+    "P": "k * 1000",
+    "v": "P * r * r / 10000 + dd"
+   },
+   "prompt": "Quantity I: CI − SI on ₹{P:inr} at {r}% p.a. for 2 years\nQuantity II: ₹{v:inr}",
+   "compare": [
+    "P * r * r / 10000",
+    "v"
+   ],
+   "where": [
+    "v > 0"
    ]
   }
  ],

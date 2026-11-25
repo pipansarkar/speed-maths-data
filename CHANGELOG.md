@@ -1,5 +1,20 @@
 # Changelog
 
+## v5 — 2026-11-25
+- Numbered mock series: every test now has fixed papers Mock 1…n
+  (sectional 10, prelims 20, mains 15; CAT QA 25) — 585 papers in all.
+- New mocks: SBI Clerk Prelims & Mains, IBPS RRB PO & Clerk Prelims,
+  RBI Assistant Prelims, SBI PO Mains DA&I; SSC CPO Paper 1, GD, MTS,
+  CHSL Tier 2; RRB ALP CBT 1, RPF Constable; XAT QA & DI. Patterns are
+  approximate (question counts and timing from public exam patterns).
+- 26 new templates: election votes, pass marks, income/savings, two
+  articles at the same price, CP/SP article counts, CI rate from amounts,
+  SI multiples, coin ratios, men-days, men-hours, efficiency, train and
+  platform, late/early walking, batting average, misread average, garden
+  path, fencing, sector area, angle ratio, mother–daughter ages, two-vessel
+  mixtures, partner withdrawal, bells (LCM), and three Quantity I/II
+  comparisons (larger root, average of evens, CI − SI).
+
 ## v4 — 2026-11-25
 - New topics: DI sets (table & pie, 5 questions per set), caselet DI, data
   sufficiency, probability, permutation & combination, mensuration, geometry,
