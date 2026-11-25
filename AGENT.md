@@ -31,7 +31,14 @@ with **no outdated question formats**. Open a pull request; never merge it.
   `{var:inr}`); delete templates for formats not seen in 12 months. Keep each
   template's `exams` and `levels` accurate. Prefer formats the built-in
   generators don't already cover.
-- **sectionals**: keep compositions in line with the latest weightage.
+- **sectionals / mocks**: `mocks[]` entries have a `tier` (sectional, prelims,
+  mains) and optional `marking`. Keep each mock's question count, minutes and
+  marking in line with the latest official pattern and its composition in
+  line with recent shift-wise analyses (e.g. how many DI-set, caselet,
+  approximation and arithmetic questions). Set topics (`diSet` = 5 questions
+  per set, `caselet` = 3) are best given in multiples of their set size.
+- **Advanced (CAT) topics** are original practice at CAT level; never copy
+  questions from books such as Quantum CAT or from past papers.
 - Bump `version` by 1 and set `updated` to today's date.
 - Add a `CHANGELOG.md` entry listing every change with its source.
 
