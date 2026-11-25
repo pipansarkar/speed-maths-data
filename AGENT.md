@@ -37,7 +37,7 @@ with **no outdated question formats**. Open a pull request; never merge it.
   line with recent shift-wise analyses (e.g. how many DI-set, caselet,
   approximation and arithmetic questions). Set topics (`diSet` = 5 questions
   per set, `caselet` = 3) are best given in multiples of their set size.
-- **Advanced (CAT) topics** are original practice at CAT level; never copy
+- **Advanced topics** are original mains-level practice; never copy
   questions from books such as Quantum CAT or from past papers.
 - Bump `version` by 1 and set `updated` to today's date.
 - Add a `CHANGELOG.md` entry listing every change with its source.

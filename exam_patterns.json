@@ -1,5 +1,5 @@
 {
- "version": 6,
+ "version": 7,
  "updated": "2026-11-25",
  "source": "Estimated from coaching-site analyses of 2025 IBPS/SBI, SSC CGL and RRB NTPC papers (PracticeMock, Oliveboard, TIME, PW, Careers360). Not official. v4 mock structures from 2025 paper analyses (PW, Adda247, PracticeMock, Oliveboard, CareerPower, Careers360, CollegeDekho).",
  "exams": [
@@ -55,7 +55,13 @@
     "dataSufficiency": 1.5,
     "probability": 1,
     "permComb": 0.5,
-    "mensuration": 0.5
+    "mensuration": 0.5,
+    "tsdAdvanced": 1,
+    "arithmeticAdvanced": 1,
+    "combinatorics": 0.5,
+    "numberTheory": 0.5,
+    "progressions": 0.5,
+    "algebraAdvanced": 0.5
    },
    "sectionals": [
     {
@@ -104,6 +110,19 @@
      "composition": {
       "dataSufficiency": 5,
       "caselet": 3
+     }
+    },
+    {
+     "id": "bank_adv_arith",
+     "tier": "sectional",
+     "name": "Advanced arithmetic (mains)",
+     "description": "Races, work, mixtures, chains",
+     "minutes": 20,
+     "composition": {
+      "tsdAdvanced": 4,
+      "arithmeticAdvanced": 3,
+      "mixture": 2,
+      "ratio": 1
      }
     }
    ],
@@ -393,6 +412,26 @@
       "probability": 1,
       "permComb": 1
      }
+    },
+    {
+     "id": "bank_mains_adv",
+     "tier": "mains",
+     "name": "Bank Mains — Advanced quant & DI",
+     "description": "26 Q · 40 min · +1 / −0.25",
+     "minutes": 40,
+     "composition": {
+      "diSet": 5,
+      "caselet": 3,
+      "numberTheory": 3,
+      "algebraAdvanced": 3,
+      "combinatorics": 2,
+      "probability": 2,
+      "tsdAdvanced": 2,
+      "geometry": 2,
+      "mensuration": 1,
+      "mixture": 1,
+      "progressions": 2
+     }
     }
    ]
   },
@@ -444,7 +483,16 @@
     "geometry": 3,
     "mensuration": 3,
     "statistics": 1,
-    "probability": 0.5
+    "probability": 0.5,
+    "geometryAdvanced": 1.5,
+    "algebraAdvanced": 1,
+    "numberTheory": 1,
+    "progressions": 0.5,
+    "functions": 0.5,
+    "logarithms": 0.5,
+    "arithmeticAdvanced": 1,
+    "tsdAdvanced": 0.5,
+    "combinatorics": 0.5
    },
    "sectionals": [
     {
@@ -492,6 +540,30 @@
      "composition": {
       "geometry": 5,
       "mensuration": 5
+     }
+    },
+    {
+     "id": "ssc_nt_alg",
+     "tier": "sectional",
+     "name": "Number theory & algebra (Tier 2)",
+     "description": "Advanced level",
+     "minutes": 20,
+     "composition": {
+      "numberTheory": 4,
+      "progressions": 3,
+      "algebraAdvanced": 3
+     }
+    },
+    {
+     "id": "ssc_geo_fn_log",
+     "tier": "sectional",
+     "name": "Advanced geometry, functions & logs",
+     "description": "Advanced level",
+     "minutes": 20,
+     "composition": {
+      "geometryAdvanced": 4,
+      "functions": 3,
+      "logarithms": 3
      }
     }
    ],
@@ -683,6 +755,30 @@
       "correct": 3,
       "wrong": 1
      }
+    },
+    {
+     "id": "cgl_t2_adv",
+     "tier": "mains",
+     "name": "SSC CGL Tier 2 — Advanced maths",
+     "description": "22 Q · 40 min · +2 / −0.5",
+     "minutes": 40,
+     "composition": {
+      "numberTheory": 3,
+      "progressions": 1,
+      "algebraAdvanced": 2,
+      "combinatorics": 2,
+      "tsdAdvanced": 2,
+      "geometryAdvanced": 2,
+      "functions": 2,
+      "logarithms": 1,
+      "arithmeticAdvanced": 2,
+      "ratio": 1,
+      "percentage": 1,
+      "mixture": 1,
+      "geometry": 1,
+      "probability": 1
+     },
+     "series": 25
     }
    ]
   },
@@ -731,7 +827,11 @@
     "twoDigitMultiply": 0.5,
     "mensuration": 2,
     "geometry": 1,
-    "statistics": 1
+    "statistics": 1,
+    "numberTheory": 1,
+    "arithmeticAdvanced": 1,
+    "progressions": 0.5,
+    "geometryAdvanced": 0.5
    },
    "sectionals": [
     {
@@ -775,6 +875,18 @@
      "composition": {
       "mensuration": 6,
       "geometry": 4
+     }
+    },
+    {
+     "id": "rrb_adv_number",
+     "tier": "sectional",
+     "name": "Advanced number & arithmetic",
+     "description": "Advanced level",
+     "minutes": 20,
+     "composition": {
+      "numberTheory": 4,
+      "arithmeticAdvanced": 4,
+      "progressions": 2
      }
     }
    ],
@@ -892,145 +1004,6 @@
       "pipes": 1,
       "mensuration": 3,
       "mixture": 1
-     }
-    }
-   ]
-  },
-  {
-   "id": "cat",
-   "name": "CAT / Advanced",
-   "description": "CAT QA, MBA entrances and advanced practice",
-   "marking": {
-    "correct": 3,
-    "wrong": 1
-   },
-   "realQuestions": 22,
-   "realMinutes": 40,
-   "groupOrder": [
-    "advanced",
-    "arithmetic",
-    "geometry",
-    "number",
-    "memory",
-    "tricks",
-    "bank"
-   ],
-   "weights": {
-    "numberTheory": 3,
-    "progressions": 2,
-    "algebraAdvanced": 3,
-    "combinatorics": 2,
-    "tsdAdvanced": 3,
-    "percentage": 1.5,
-    "profitLoss": 1.5,
-    "interest": 1,
-    "ratio": 1.5,
-    "average": 1,
-    "timeWork": 1.5,
-    "speedDistance": 1,
-    "mixture": 1.5,
-    "probability": 1,
-    "permComb": 1,
-    "geometry": 2,
-    "mensuration": 1.5,
-    "algebraIdentity": 1,
-    "statistics": 0.5,
-    "remainders": 1,
-    "lcmHcf": 0.5,
-    "squares": 0.5,
-    "cubes": 0.5,
-    "percentFraction": 0.5,
-    "geometryAdvanced": 2,
-    "functions": 2,
-    "logarithms": 1.5,
-    "arithmeticAdvanced": 2.5
-   },
-   "sectionals": [
-    {
-     "id": "cat_nt_alg",
-     "tier": "sectional",
-     "name": "Number theory & algebra",
-     "description": "CAT-level, +3 / −1",
-     "minutes": 20,
-     "composition": {
-      "numberTheory": 4,
-      "progressions": 3,
-      "algebraAdvanced": 3
-     }
-    },
-    {
-     "id": "cat_arith",
-     "tier": "sectional",
-     "name": "Arithmetic (CAT level)",
-     "description": "Races, tracks, work, mixtures",
-     "minutes": 20,
-     "composition": {
-      "tsdAdvanced": 4,
-      "ratio": 2,
-      "percentage": 2,
-      "mixture": 2
-     }
-    },
-    {
-     "id": "cat_geo_fn_log",
-     "tier": "sectional",
-     "name": "Geometry, functions & logs",
-     "description": "CAT-level, +3 / −1",
-     "minutes": 20,
-     "composition": {
-      "geometryAdvanced": 4,
-      "functions": 3,
-      "logarithms": 3
-     }
-    }
-   ],
-   "mocks": [
-    {
-     "id": "cat_qa",
-     "tier": "mains",
-     "name": "CAT QA section — full mock",
-     "description": "22 Q · 40 min · +3 / −1",
-     "minutes": 40,
-     "composition": {
-      "numberTheory": 3,
-      "progressions": 1,
-      "algebraAdvanced": 2,
-      "combinatorics": 2,
-      "tsdAdvanced": 2,
-      "geometryAdvanced": 2,
-      "functions": 2,
-      "logarithms": 1,
-      "arithmeticAdvanced": 2,
-      "ratio": 1,
-      "percentage": 1,
-      "mixture": 1,
-      "geometry": 1,
-      "probability": 1
-     },
-     "series": 25
-    },
-    {
-     "id": "xat_qa",
-     "tier": "mains",
-     "name": "XAT QA & DI — mock",
-     "description": "26 Q · 40 min · +1 / −0.25",
-     "minutes": 40,
-     "composition": {
-      "diSet": 5,
-      "caselet": 3,
-      "numberTheory": 3,
-      "algebraAdvanced": 3,
-      "combinatorics": 2,
-      "probability": 2,
-      "tsdAdvanced": 2,
-      "geometry": 2,
-      "mensuration": 1,
-      "mixture": 1,
-      "progressions": 2
-     },
-     "marking": {
-      "correct": 1,
-      "wrong": 0.25
      }
     }
    ]
@@ -2111,7 +2084,7 @@
    "exams": [
     "ssc",
     "railway",
-    "cat"
+    "bank"
    ],
    "vars": {
     "k": {
@@ -2453,15 +2426,16 @@
    "solution": "CI − SI for 2 years = P(r/100)² = {P:inr} × ({r}/100)² = {q1}\nQuantity II = {q2}"
   },
   {
-   "id": "cat_ratio_lcm",
+   "id": "adv_ratio_lcm",
    "topic": "numberTheory",
    "levels": [
     2,
     5
    ],
    "exams": [
-    "cat",
-    "ssc"
+    "ssc",
+    "railway",
+    "bank"
    ],
    "vars": {
     "a": {
@@ -2489,15 +2463,15 @@
    "solution": "Numbers = {a}k and {b}k; with {a}, {b} co-prime, LCM = {a} × {b} × k\nk = {L} ÷ ({a} × {b}) = {k}\nSum = ({a} + {b}) × {k} = {answer}"
   },
   {
-   "id": "cat_ap_terms",
+   "id": "adv_ap_terms",
    "topic": "progressions",
    "levels": [
     2,
     5
    ],
    "exams": [
-    "cat",
-    "ssc"
+    "ssc",
+    "railway"
    ],
    "vars": {
     "p": {
@@ -2521,15 +2495,15 @@
    "solution": "T₉ − T₃ = 6d → d = ({q} − {p}) / 6 = {dd}\nT₁₅ = T₉ + 6d = {q} + 6 × {dd} = {answer}"
   },
   {
-   "id": "cat_work_pairs",
+   "id": "adv_work_pairs",
    "topic": "tsdAdvanced",
    "levels": [
     3,
     5
    ],
    "exams": [
-    "cat",
-    "bank"
+    "bank",
+    "ssc"
    ],
    "vars": {
     "ra": {
@@ -2562,15 +2536,16 @@
    }
   },
   {
-   "id": "cat_meeting_point",
+   "id": "adv_meeting_point",
    "topic": "arithmeticAdvanced",
    "levels": [
     2,
     5
    ],
    "exams": [
-    "cat",
-    "ssc"
+    "ssc",
+    "bank",
+    "railway"
    ],
    "vars": {
     "u": {
@@ -2599,14 +2574,16 @@
    "solution": "Time to meet = {D} ÷ ({u} + {v}) = {k} h\nDistance from P = {u} × {k} = {answer} km"
   },
   {
-   "id": "cat_alloys",
+   "id": "adv_alloys",
    "topic": "arithmeticAdvanced",
    "levels": [
     3,
     5
    ],
    "exams": [
-    "cat"
+    "bank",
+    "ssc",
+    "railway"
    ],
    "vars": {
     "g1": [
@@ -2650,14 +2627,14 @@
    "solution": "Weighted average: ({x} × {g1} + {y} × {g2}) / ({x} + {y})\n= {answer}%"
   },
   {
-   "id": "cat_log_equation",
+   "id": "adv_log_equation",
    "topic": "logarithms",
    "levels": [
     3,
     5
    ],
    "exams": [
-    "cat"
+    "ssc"
    ],
    "vars": {
     "ea": {
@@ -2683,15 +2660,15 @@
    "solution": "log₂ [x(x − {k})] = {m} → x(x − {k}) = 2^{m}\nx = {x} works: {x} × {xk} = 2^{m} ✓ (the other root is negative)\nx = {answer}"
   },
   {
-   "id": "cat_square_in_circle",
+   "id": "adv_square_in_circle",
    "topic": "geometryAdvanced",
    "levels": [
     2,
     4
    ],
    "exams": [
-    "cat",
-    "ssc"
+    "ssc",
+    "railway"
    ],
    "vars": {
     "r": {
