@@ -1,5 +1,5 @@
 {
- "version": 5,
+ "version": 6,
  "updated": "2026-11-25",
  "source": "Estimated from coaching-site analyses of 2025 IBPS/SBI, SSC CGL and RRB NTPC papers (PracticeMock, Oliveboard, TIME, PW, Careers360). Not official. v4 mock structures from 2025 paper analyses (PW, Adda247, PracticeMock, Oliveboard, CareerPower, Careers360, CollegeDekho).",
  "exams": [
@@ -939,7 +939,11 @@
     "lcmHcf": 0.5,
     "squares": 0.5,
     "cubes": 0.5,
-    "percentFraction": 0.5
+    "percentFraction": 0.5,
+    "geometryAdvanced": 2,
+    "functions": 2,
+    "logarithms": 1.5,
+    "arithmeticAdvanced": 2.5
    },
    "sectionals": [
     {
@@ -966,6 +970,18 @@
       "percentage": 2,
       "mixture": 2
      }
+    },
+    {
+     "id": "cat_geo_fn_log",
+     "tier": "sectional",
+     "name": "Geometry, functions & logs",
+     "description": "CAT-level, +3 / −1",
+     "minutes": 20,
+     "composition": {
+      "geometryAdvanced": 4,
+      "functions": 3,
+      "logarithms": 3
+     }
     }
    ],
    "mocks": [
@@ -977,17 +993,18 @@
      "minutes": 40,
      "composition": {
       "numberTheory": 3,
-      "progressions": 2,
-      "algebraAdvanced": 3,
+      "progressions": 1,
+      "algebraAdvanced": 2,
       "combinatorics": 2,
-      "tsdAdvanced": 3,
+      "tsdAdvanced": 2,
+      "geometryAdvanced": 2,
+      "functions": 2,
+      "logarithms": 1,
+      "arithmeticAdvanced": 2,
       "ratio": 1,
       "percentage": 1,
-      "profitLoss": 1,
       "mixture": 1,
-      "interest": 1,
-      "geometry": 2,
-      "mensuration": 1,
+      "geometry": 1,
       "probability": 1
      },
      "series": 25
@@ -1063,7 +1080,8 @@
    "where": [
     "isInt(q2)",
     "abs(q1 - q2) <= max(q1, q2) * 0.3"
-   ]
+   ],
+   "solution": "Quantity I: SI = {P:inr} × {r} × 2 / 100 = {q1}\nQuantity II: CI = {P2:inr} × ((1 + {r2}/100)² − 1) = {q2}\nCompare {q1} with {q2}"
   },
   {
    "id": "bank_qc_train_speed",
@@ -1101,7 +1119,8 @@
    ],
    "where": [
     "v > 0"
-   ]
+   ],
+   "solution": "Quantity I: {L} m ÷ {t} s, × 18/5 = {q1} km/h\nQuantity II: {q2} km/h\nCompare {q1} with {q2}"
   },
   {
    "id": "bank_qc_profit",
@@ -1140,7 +1159,8 @@
    "compare": [
     "(SP - CP) / CP * 100",
     "x"
-   ]
+   ],
+   "solution": "Profit = {SP:inr} − {CP:inr}; % = profit ÷ CP × 100 = {q1}%\nQuantity II: {q2}%"
   },
   {
    "id": "bank_qc_ratio_share",
@@ -1184,7 +1204,8 @@
     "gcd(a, b) == 1",
     "a != b",
     "y > 0"
-   ]
+   ],
+   "solution": "A's share = {T:inr} × {a}/({a} + {b}) = {q1}\nQuantity II: {q2}"
   },
   {
    "id": "bank_caselet_pass",
@@ -1234,7 +1255,8 @@
    "where": [
     "isInt(g * q / 100)",
     "isInt(b * s / 100)"
-   ]
+   ],
+   "solution": "Girls = {p}% of {N} = {g}; boys = {N} − {g} = {b}\nPassed = {q}% of {g} + {s}% of {b} = {answer}"
   },
   {
    "id": "bank_di_two_companies",
@@ -1279,7 +1301,8 @@
    "answer": "d / a * 100",
    "where": [
     "isInt(d)"
-   ]
+   ],
+   "solution": "B's 2024 figure = {d}; A's 2023 figure = {a}\n{d} ÷ {a} × 100 = {answer}%"
   },
   {
    "id": "ssc_mp_discount_gain",
@@ -1316,7 +1339,8 @@
     "MP": "m * 100"
    },
    "prompt": "A shopkeeper marks an article at ₹{MP:inr}, gives a {d}% discount and still gains {g}%.\nCost price = ?",
-   "answer": "MP * (100 - d) / (100 + g)"
+   "answer": "MP * (100 - d) / (100 + g)",
+   "solution": "SP = {MP:inr} × (100 − {d})/100\nCP = SP × 100/(100 + {g}) = ₹{answer:inr}"
   },
   {
    "id": "ssc_a4_identity",
@@ -1335,7 +1359,8 @@
     }
    },
    "prompt": "If a + 1/a = {k}, then a⁴ + 1/a⁴ = ?",
-   "answer": "(k ^ 2 - 2) ^ 2 - 2"
+   "answer": "(k ^ 2 - 2) ^ 2 - 2",
+   "solution": "a² + 1/a² = {k}² − 2\na⁴ + 1/a⁴ = (a² + 1/a²)² − 2 = {answer}"
   },
   {
    "id": "ssc_ab_from_sum_diff",
@@ -1363,7 +1388,8 @@
    "where": [
     "d < s",
     "isInt((s + d) / 2)"
-   ]
+   ],
+   "solution": "ab = [(a + b)² − (a − b)²] / 4\n= ({s}² − {d}²) / 4 = {answer}"
   },
   {
    "id": "rrb_sum_divisible",
@@ -1395,7 +1421,8 @@
     "n": "(l - f) / d + 1"
    },
    "prompt": "Sum of all two-digit numbers divisible by {d} = ?",
-   "answer": "n * (f + l) / 2"
+   "answer": "n * (f + l) / 2",
+   "solution": "Two-digit multiples of {d}: {f}, …, {l} — {n} terms in AP\nSum = {n} × ({f} + {l}) / 2 = {answer}"
   },
   {
    "id": "rrb_work_wages",
@@ -1429,7 +1456,8 @@
    "answer": "W * b / (a + b)",
    "where": [
     "a != b"
-   ]
+   ],
+   "solution": "Wages ∝ daily work: A : B = 1/{a} : 1/{b} = {b} : {a}\nA's share = {W:inr} × {b}/({a} + {b}) = ₹{answer:inr}"
   },
   {
    "id": "rrb_family_average_age",
@@ -1460,7 +1488,8 @@
    "answer": "(2 * (x + n) + c) / 3",
    "where": [
     "c <= n"
-   ]
+   ],
+   "solution": "Couple's total now = 2 × ({x} + {n})\nFamily average = (2 × ({x} + {n}) + {c}) / 3 = {answer}"
   },
   {
    "id": "pct_election",
@@ -1500,7 +1529,8 @@
    "answer": "V",
    "where": [
     "isInt(d)"
-   ]
+   ],
+   "solution": "Margin = winner% − loser% = (2 × {p} − 100)% of all votes\nTotal = {d:inr} × 100 / (2 × {p} − 100) = {answer:inr}"
   },
   {
    "id": "pct_pass_marks",
@@ -1539,7 +1569,8 @@
    "where": [
     "isInt(need)",
     "f >= 1"
-   ]
+   ],
+   "solution": "Pass mark = {g} + {f} = {need}\n{need} is {p}% of the maximum → {need} × 100 / {p} = {answer}"
   },
   {
    "id": "pct_income_saving",
@@ -1577,7 +1608,8 @@
    "where": [
     "answer > 0",
     "isInt(answer)"
-   ]
+   ],
+   "solution": "Take income = 100: spend {e}, save 100 − {e}\nNew income 100 + {a}; new spend {e} × (100 + {b})/100\nSavings rise by {answer}%"
   },
   {
    "id": "pl_two_articles",
@@ -1609,7 +1641,8 @@
    "answer": "p * p / 100",
    "where": [
     "isInt(answer)"
-   ]
+   ],
+   "solution": "Same SP with equal % profit and loss → loss % = p²/100\n= {p}² / 100 = {answer}%"
   },
   {
    "id": "pl_cp_sp_count",
@@ -1638,7 +1671,8 @@
    "where": [
     "a > b",
     "isInt(answer)"
-   ]
+   ],
+   "solution": "CP of {a} = SP of {b} → gain of {a} − {b} articles on {b}\nProfit % = ({a} − {b}) / {b} × 100 = {answer}%"
   },
   {
    "id": "ci_rate_from_amounts",
@@ -1673,7 +1707,8 @@
    "where": [
     "isInt(A2)",
     "isInt(A3)"
-   ]
+   ],
+   "solution": "One year's interest on {A2:inr} = {A3:inr} − {A2:inr}\nRate = that ÷ {A2:inr} × 100 = {answer}%"
   },
   {
    "id": "si_times",
@@ -1703,7 +1738,8 @@
     ]
    },
    "prompt": "At simple interest a sum doubles in {n} years. In how many years will it become {k} times?",
-   "answer": "(k - 1) * n"
+   "answer": "(k - 1) * n",
+   "solution": "Doubling: interest = 1 × principal in {n} years\n{k} times needs ({k} − 1) × principal → ({k} − 1) × {n} = {answer} years"
   },
   {
    "id": "ratio_coins",
@@ -1744,7 +1780,8 @@
    "where": [
     "isInt(T)",
     "gcd(gcd(a, b), c) == 1"
-   ]
+   ],
+   "solution": "One set = {a} × ₹1 + {b} × 50p + {c} × 25p\nSets = {T:inr} ÷ value of one set = {k}\n25p coins = {c} × {k} = {answer}"
   },
   {
    "id": "work_mandays",
@@ -1777,7 +1814,8 @@
    "where": [
     "isInt(answer)",
     "m1 != m2"
-   ]
+   ],
+   "solution": "M₁D₁ = M₂D₂ → {m1} × {d1} = {m2} × D\nD = {answer} days"
   },
   {
    "id": "work_men_hours",
@@ -1817,7 +1855,8 @@
    "where": [
     "isInt(answer)",
     "m1 != m2"
-   ]
+   ],
+   "solution": "M₁H₁D₁ = M₂H₂D₂ → {m1} × {h1} × {d1} = {m2} × {h2} × D\nD = {answer} days"
   },
   {
    "id": "work_efficiency",
@@ -1847,7 +1886,8 @@
    "answer": "b * 100 / (100 + p)",
    "where": [
     "isInt(answer)"
-   ]
+   ],
+   "solution": "Time ∝ 1/efficiency\nA = {b} × 100 / (100 + {p}) = {answer} days"
   },
   {
    "id": "train_pole_platform",
@@ -1880,7 +1920,8 @@
     "t2": "t1 + dt"
    },
    "prompt": "A train passes a pole in {t1} s and a {P} m long platform in {t2} s.\nLength of the train (m) = ?",
-   "answer": "v * t1"
+   "answer": "v * t1",
+   "solution": "The extra {t2} − {t1} s covers the {P} m platform\nSpeed = {P} ÷ ({t2} − {t1}) = {v} m/s\nLength = {v} × {t1} = {answer} m"
   },
   {
    "id": "late_early",
@@ -1922,7 +1963,8 @@
    "answer": "(l + e) / 60 * v1 * v2 / (v2 - v1)",
    "where": [
     "isInt(answer)"
-   ]
+   ],
+   "solution": "Time difference = {l} + {e} minutes\nd/{v1} − d/{v2} = ({l} + {e})/60\nd = {answer} km"
   },
   {
    "id": "avg_batsman",
@@ -1954,7 +1996,8 @@
     "b": "a + dd"
    },
    "prompt": "A batsman's average after {n} innings is {a}. How many runs must he score in the next innings to raise it to {b}?",
-   "answer": "b * (n + 1) - a * n"
+   "answer": "b * (n + 1) - a * n",
+   "solution": "Total needed = {b} × ({n} + 1); current total = {a} × {n}\nRuns needed = {answer}"
   },
   {
    "id": "avg_misread",
@@ -1990,7 +2033,8 @@
    "where": [
     "x != y",
     "isInt(answer * 100)"
-   ]
+   ],
+   "solution": "Correct total = {n} × {a} − {y} + {x}\nCorrect average = that ÷ {n} = {answer}"
   },
   {
    "id": "mens_garden_path",
@@ -2022,7 +2066,8 @@
    "answer": "(l + 2 * w) * (b + 2 * w) - l * b",
    "where": [
     "b < l"
-   ]
+   ],
+   "solution": "Outer rectangle = ({l} + 2 × {w}) × ({b} + 2 × {w})\nPath = outer − {l} × {b} = {answer} m²"
   },
   {
    "id": "mens_fencing",
@@ -2053,7 +2098,8 @@
    "answer": "2 * (l + b) * r",
    "where": [
     "b < l"
-   ]
+   ],
+   "solution": "Perimeter = 2({l} + {b}) m\nCost = perimeter × ₹{r} = ₹{answer:inr}"
   },
   {
    "id": "mens_sector",
@@ -2090,7 +2136,8 @@
    "answer": "t / 360 * 22 / 7 * r * r",
    "where": [
     "isInt(answer)"
-   ]
+   ],
+   "solution": "Sector = θ/360 × πr² = {t}/360 × 22/7 × {r}²\n= {answer} cm²"
   },
   {
    "id": "geo_angle_ratio",
@@ -2124,7 +2171,8 @@
     "a != b",
     "b != c",
     "gcd(gcd(a, b), c) == 1"
-   ]
+   ],
+   "solution": "Ratio parts add to {a} + {b} + {c}; each part = 180 ÷ that\nLargest angle = {answer}°"
   },
   {
    "id": "ages_mother_daughter",
@@ -2161,7 +2209,8 @@
    "where": [
     "m >= dd + 18",
     "m <= 70"
-   ]
+   ],
+   "solution": "Daughter = d, mother = {S} − d\n{S} − d + {n} = {k}(d + {n}) → d = {answer}"
   },
   {
    "id": "mix_two_vessels",
@@ -2210,7 +2259,8 @@
     "gcd(a, b) == 1",
     "gcd(c, d) == 1",
     "a * d != b * c"
-   ]
+   ],
+   "solution": "Milk from A = {x} × {a}/({a} + {b}); from B = {y} × {c}/({c} + {d})\nTotal milk = {answer} L"
   },
   {
    "id": "partner_withdraw",
@@ -2253,7 +2303,8 @@
    "answer": "P * wa / (wa + wb)",
    "where": [
     "isInt(answer)"
-   ]
+   ],
+   "solution": "A: {p} × {m} + {p}/2 × (12 − {m}) = {wa} (₹1000-months)\nB: {q} × 12 = {wb}\nA's share = {P:inr} × {wa}/({wa} + {wb}) = ₹{answer:inr}"
   },
   {
    "id": "lcm_bells",
@@ -2287,7 +2338,8 @@
     "a < b",
     "b < c",
     "answer <= 600"
-   ]
+   ],
+   "solution": "They ring together every LCM({a}, {b}, {c}) minutes\n= {answer}"
   },
   {
    "id": "qc_larger_root",
@@ -2326,7 +2378,8 @@
    ],
    "where": [
     "r1 != r2"
-   ]
+   ],
+   "solution": "x² − {s}x + {pr} = (x − {r1})(x − {r2})\nLarger root = {q1}; Quantity II = {q2}"
   },
   {
    "id": "qc_avg_even",
@@ -2356,7 +2409,8 @@
    "compare": [
     "n + 1",
     "v"
-   ]
+   ],
+   "solution": "Average of the first n even numbers = n + 1 = {q1}\nQuantity II = {q2}"
   },
   {
    "id": "qc_si_ci_same",
@@ -2395,7 +2449,259 @@
    ],
    "where": [
     "v > 0"
-   ]
+   ],
+   "solution": "CI − SI for 2 years = P(r/100)² = {P:inr} × ({r}/100)² = {q1}\nQuantity II = {q2}"
+  },
+  {
+   "id": "cat_ratio_lcm",
+   "topic": "numberTheory",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "cat",
+    "ssc"
+   ],
+   "vars": {
+    "a": {
+     "min": 2,
+     "max": 9
+    },
+    "b": {
+     "min": 2,
+     "max": 9
+    },
+    "k": {
+     "min": 2,
+     "max": 20
+    }
+   },
+   "let": {
+    "L": "k * a * b"
+   },
+   "prompt": "Two numbers are in the ratio {a} : {b} and their LCM is {L}. Their sum = ?",
+   "answer": "k * (a + b)",
+   "where": [
+    "gcd(a, b) == 1",
+    "a < b"
+   ],
+   "solution": "Numbers = {a}k and {b}k; with {a}, {b} co-prime, LCM = {a} × {b} × k\nk = {L} ÷ ({a} × {b}) = {k}\nSum = ({a} + {b}) × {k} = {answer}"
+  },
+  {
+   "id": "cat_ap_terms",
+   "topic": "progressions",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "cat",
+    "ssc"
+   ],
+   "vars": {
+    "p": {
+     "min": -20,
+     "max": 60
+    },
+    "dd": {
+     "min": -6,
+     "max": 12
+    }
+   },
+   "let": {
+    "q": "p + 6 * dd"
+   },
+   "prompt": "In an AP the 3rd term is {p} and the 9th term is {q}. The 15th term = ?",
+   "answer": "2 * q - p",
+   "where": [
+    "answer >= 0",
+    "dd != 0"
+   ],
+   "solution": "T₉ − T₃ = 6d → d = ({q} − {p}) / 6 = {dd}\nT₁₅ = T₉ + 6d = {q} + 6 × {dd} = {answer}"
+  },
+  {
+   "id": "cat_work_pairs",
+   "topic": "tsdAdvanced",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "cat",
+    "bank"
+   ],
+   "vars": {
+    "ra": {
+     "min": 1,
+     "max": 6
+    },
+    "rb": {
+     "min": 1,
+     "max": 6
+    },
+    "rc": {
+     "min": 1,
+     "max": 6
+    }
+   },
+   "prompt": "A and B together finish a job in {x} days, B and C in {y} days, C and A in {z} days.\nAll three together finish it in ? days",
+   "answer": "W / (ra + rb + rc)",
+   "where": [
+    "x != y",
+    "y != z",
+    "x != z",
+    "W <= 600"
+   ],
+   "solution": "Take the work as {W} units: A + B do {W}/{x}, B + C {W}/{y}, C + A {W}/{z} units a day\nAdding counts everyone twice → A + B + C = half the sum per day\nDays = {W} ÷ (A + B + C) = {answer}",
+   "let": {
+    "W": "lcm(lcm(ra + rb, rb + rc), lcm(rc + ra, ra + rb + rc))",
+    "x": "W / (ra + rb)",
+    "y": "W / (rb + rc)",
+    "z": "W / (rc + ra)"
+   }
+  },
+  {
+   "id": "cat_meeting_point",
+   "topic": "arithmeticAdvanced",
+   "levels": [
+    2,
+    5
+   ],
+   "exams": [
+    "cat",
+    "ssc"
+   ],
+   "vars": {
+    "u": {
+     "min": 20,
+     "max": 90,
+     "step": 5
+    },
+    "v": {
+     "min": 20,
+     "max": 90,
+     "step": 5
+    },
+    "k": {
+     "min": 1,
+     "max": 10
+    }
+   },
+   "let": {
+    "D": "k * (u + v)"
+   },
+   "prompt": "Two cars start at the same time from P and Q, {D} km apart, towards each other at {u} km/h and {v} km/h.\nThey meet how far from P (km)?",
+   "answer": "D * u / (u + v)",
+   "where": [
+    "u != v"
+   ],
+   "solution": "Time to meet = {D} ÷ ({u} + {v}) = {k} h\nDistance from P = {u} × {k} = {answer} km"
+  },
+  {
+   "id": "cat_alloys",
+   "topic": "arithmeticAdvanced",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "cat"
+   ],
+   "vars": {
+    "g1": [
+     20,
+     25,
+     30,
+     40,
+     50,
+     60,
+     75,
+     80,
+     90
+    ],
+    "g2": [
+     20,
+     25,
+     30,
+     40,
+     50,
+     60,
+     75,
+     80,
+     90
+    ],
+    "x": {
+     "min": 1,
+     "max": 5
+    },
+    "y": {
+     "min": 1,
+     "max": 5
+    }
+   },
+   "prompt": "Alloy P is {g1}% gold and alloy Q is {g2}% gold. They are melted together in the ratio {x} : {y}.\nGold % in the new alloy = ?",
+   "answer": "(x * g1 + y * g2) / (x + y)",
+   "where": [
+    "isInt(answer)",
+    "g1 != g2",
+    "gcd(x, y) == 1"
+   ],
+   "solution": "Weighted average: ({x} × {g1} + {y} × {g2}) / ({x} + {y})\n= {answer}%"
+  },
+  {
+   "id": "cat_log_equation",
+   "topic": "logarithms",
+   "levels": [
+    3,
+    5
+   ],
+   "exams": [
+    "cat"
+   ],
+   "vars": {
+    "ea": {
+     "min": 2,
+     "max": 6
+    },
+    "eb": {
+     "min": 0,
+     "max": 5
+    }
+   },
+   "let": {
+    "x": "2 ^ ea",
+    "k": "2 ^ ea - 2 ^ eb",
+    "m": "ea + eb",
+    "xk": "2 ^ eb"
+   },
+   "prompt": "If log₂ x + log₂ (x − {k}) = {m} and x > {k}, then x = ?",
+   "answer": "x",
+   "where": [
+    "eb < ea"
+   ],
+   "solution": "log₂ [x(x − {k})] = {m} → x(x − {k}) = 2^{m}\nx = {x} works: {x} × {xk} = 2^{m} ✓ (the other root is negative)\nx = {answer}"
+  },
+  {
+   "id": "cat_square_in_circle",
+   "topic": "geometryAdvanced",
+   "levels": [
+    2,
+    4
+   ],
+   "exams": [
+    "cat",
+    "ssc"
+   ],
+   "vars": {
+    "r": {
+     "min": 2,
+     "max": 20
+    }
+   },
+   "prompt": "A square is inscribed in a circle of radius {r} cm. Area of the square (cm²) = ?",
+   "answer": "2 * r * r",
+   "solution": "The square's diagonal = diameter = 2 × {r}\nArea = diagonal² / 2 = (2 × {r})² / 2 = {answer}"
   }
  ],
  "examDates": [

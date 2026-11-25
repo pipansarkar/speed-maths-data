@@ -1,5 +1,10 @@
 # Changelog
 
+## v6 — 2026-11-25
+- Every template now carries a step-by-step solution.
+- 7 new CAT-level templates (ratio–LCM, AP terms, pairwise work, meeting point, alloys, log equation, square in circle).
+- CAT: new topics weighted (advanced geometry, functions, logarithms, advanced arithmetic); QA mock rebalanced; new sectional "Geometry, functions & logs".
+
 ## v5 — 2026-11-25
 - Numbered mock series: every test now has fixed papers Mock 1…n
   (sectional 10, prelims 20, mains 15; CAT QA 25) — 585 papers in all.
