@@ -1,6 +1,6 @@
 {
- "version": 7,
- "updated": "2026-11-25",
+ "version": 8,
+ "updated": "2026-11-27",
  "source": "Estimated from coaching-site analyses of 2025 IBPS/SBI, SSC CGL and RRB NTPC papers (PracticeMock, Oliveboard, TIME, PW, Careers360). Not official. v4 mock structures from 2025 paper analyses (PW, Adda247, PracticeMock, Oliveboard, CareerPower, Careers360, CollegeDekho).",
  "exams": [
   {
@@ -15,6 +15,7 @@
    "realMinutes": 20,
    "groupOrder": [
     "bank",
+    "reasoning",
     "arithmetic",
     "memory",
     "tricks",
@@ -61,7 +62,14 @@
     "combinatorics": 0.5,
     "numberTheory": 0.5,
     "progressions": 0.5,
-    "algebraAdvanced": 0.5
+    "algebraAdvanced": 0.5,
+    "inequality": 5,
+    "syllogism": 5,
+    "codingDecoding": 3,
+    "directionSense": 2,
+    "bloodRelations": 2,
+    "ranking": 1.5,
+    "alphabetTest": 1.5
    },
    "sectionals": [
     {
@@ -123,6 +131,18 @@
       "arithmeticAdvanced": 3,
       "mixture": 2,
       "ratio": 1
+     }
+    },
+    {
+     "id": "bank_reasoning_sprint",
+     "tier": "sectional",
+     "name": "Reasoning sprint",
+     "description": "Inequality, syllogism, coding",
+     "minutes": 8,
+     "composition": {
+      "inequality": 4,
+      "syllogism": 3,
+      "codingDecoding": 3
      }
     }
    ],
@@ -432,6 +452,23 @@
       "mixture": 1,
       "progressions": 2
      }
+    },
+    {
+     "id": "bank_reasoning_pre",
+     "tier": "prelims",
+     "name": "Bank Prelims — Reasoning (non-puzzle)",
+     "description": "25 Q · 20 min · +1 / −0.25",
+     "minutes": 20,
+     "series": 20,
+     "composition": {
+      "inequality": 5,
+      "syllogism": 5,
+      "codingDecoding": 5,
+      "bloodRelations": 3,
+      "directionSense": 3,
+      "ranking": 2,
+      "alphabetTest": 2
+     }
     }
    ]
   },
@@ -447,6 +484,7 @@
    "realMinutes": 15,
    "groupOrder": [
     "arithmetic",
+    "reasoning",
     "geometry",
     "number",
     "memory",
@@ -492,7 +530,14 @@
     "logarithms": 0.5,
     "arithmeticAdvanced": 1,
     "tsdAdvanced": 0.5,
-    "combinatorics": 0.5
+    "combinatorics": 0.5,
+    "codingDecoding": 4,
+    "alphabetTest": 4,
+    "ranking": 2,
+    "directionSense": 2,
+    "bloodRelations": 3,
+    "syllogism": 2,
+    "inequality": 1
    },
    "sectionals": [
     {
@@ -564,6 +609,18 @@
       "geometryAdvanced": 4,
       "functions": 3,
       "logarithms": 3
+     }
+    },
+    {
+     "id": "ssc_gi_sprint",
+     "tier": "sectional",
+     "name": "General intelligence sprint",
+     "description": "Coding, alphabet, relations",
+     "minutes": 8,
+     "composition": {
+      "codingDecoding": 4,
+      "alphabetTest": 3,
+      "bloodRelations": 3
      }
     }
    ],
@@ -779,6 +836,22 @@
       "probability": 1
      },
      "series": 25
+    },
+    {
+     "id": "cgl_t1_reasoning",
+     "tier": "prelims",
+     "name": "SSC CGL Tier 1 — General Intelligence",
+     "description": "25 Q · 20 min · +2 / −0.5",
+     "minutes": 20,
+     "series": 20,
+     "composition": {
+      "codingDecoding": 6,
+      "alphabetTest": 5,
+      "bloodRelations": 4,
+      "syllogism": 4,
+      "directionSense": 3,
+      "ranking": 3
+     }
     }
    ]
   },
@@ -794,6 +867,7 @@
    "realMinutes": 27,
    "groupOrder": [
     "number",
+    "reasoning",
     "arithmetic",
     "geometry",
     "memory",
@@ -831,7 +905,14 @@
     "numberTheory": 1,
     "arithmeticAdvanced": 1,
     "progressions": 0.5,
-    "geometryAdvanced": 0.5
+    "geometryAdvanced": 0.5,
+    "codingDecoding": 4,
+    "alphabetTest": 3,
+    "ranking": 2,
+    "directionSense": 3,
+    "bloodRelations": 3,
+    "syllogism": 2,
+    "inequality": 1
    },
    "sectionals": [
     {
@@ -887,6 +968,18 @@
       "numberTheory": 4,
       "arithmeticAdvanced": 4,
       "progressions": 2
+     }
+    },
+    {
+     "id": "rrb_reasoning_sprint",
+     "tier": "sectional",
+     "name": "Reasoning sprint",
+     "description": "Coding, directions, relations",
+     "minutes": 8,
+     "composition": {
+      "codingDecoding": 4,
+      "directionSense": 3,
+      "bloodRelations": 3
      }
     }
    ],
@@ -1004,6 +1097,23 @@
       "pipes": 1,
       "mensuration": 3,
       "mixture": 1
+     }
+    },
+    {
+     "id": "ntpc_reasoning",
+     "tier": "prelims",
+     "name": "RRB NTPC CBT 1 — Reasoning",
+     "description": "30 Q · 25 min · +1 / −⅓",
+     "minutes": 25,
+     "series": 20,
+     "composition": {
+      "codingDecoding": 7,
+      "alphabetTest": 5,
+      "bloodRelations": 5,
+      "directionSense": 5,
+      "ranking": 4,
+      "syllogism": 3,
+      "inequality": 1
      }
     }
    ]

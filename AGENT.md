@@ -54,3 +54,7 @@ template (the test output or a quick script) and confirm the answers by hand.
 - Otherwise create branch `weekly/<yyyy-mm-dd>`, commit, push, and open a PR
   to `main` titled `Weekly content update <yyyy-mm-dd>` with: summary of
   changes, sources, and the validation result. Do not merge.
+
+- **Reasoning topics** (`inequality`, `syllogism`, `codingDecoding`, `directionSense`,
+  `bloodRelations`, `ranking`, `alphabetTest`) are generated in the app; adjust their
+  weights and mock compositions here like any other topic.

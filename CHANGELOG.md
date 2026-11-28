@@ -1,5 +1,9 @@
 # Changelog
 
+## v8 — 2026-11-27
+- Reasoning section: weights for inequality, syllogism, coding-decoding, direction sense, blood relations, ranking and alphabet test in Bank, SSC and Railway.
+- New reasoning mocks (Bank Prelims reasoning, SSC CGL General Intelligence, RRB NTPC reasoning) and reasoning sprints.
+
 ## v7 — 2026-11-25
 - CAT exam removed. Its advanced topics, sectionals and mocks moved into Bank (mains advanced arithmetic, Bank Mains advanced quant & DI), SSC (Tier 2 number theory & algebra, advanced geometry/functions/logs, CGL Tier 2 advanced mock) and Railway (advanced number & arithmetic).
 - CAT-only templates retagged to Bank/SSC/Railway and renamed adv_*.
